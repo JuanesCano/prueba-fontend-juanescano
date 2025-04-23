@@ -11,38 +11,7 @@
 
 ##  Estructura del proyecto
 
-src/
-│
-├── components/
-│   ├── UserList.tsx              # Renderiza la lista de usuarios
-│   ├── UserInfoCard.tsx          # Muestra información detallada de un usuario
-│   └── SearchBar.tsx             # Componente de barra de búsqueda
-│
-├── context/
-│   └── ThemeContext.tsx          # Contexto global para tema claro/oscuro
-│
-├── hooks/
-│   ├── reduxHooks.ts             # Hooks personalizados para Redux
-│   └── useColorScheme.ts         # Manejo de esquemas de color
-│
-├── navigation/
-│   └── RootNavigation.tsx        # Configuración de navegación principal
-│
-├── screens/
-│   ├── Home/
-│   │   └── index.tsx             # Pantalla principal (lista de usuarios)
-│   └── UserDetails/
-│       └── index.tsx             # Pantalla con detalles del usuario
-│
-├── store/
-│   ├── slices/
-│   │   └── usersSlice.ts         # Redux slice para manejo de usuarios
-│   └── index.ts                  # Configuración del store global
-│
-└── types/
-    ├── user.ts                   # Tipado para los datos de usuario
-    └── navigation.ts             # Tipado de la navegación (React Navigation)
-
+<pre> ``` src/ ├── components/ │ ├── UserList.tsx # Renderiza la lista de usuarios │ ├── UserInfoCard.tsx # Muestra información detallada de un usuario │ └── SearchBar.tsx # Componente de barra de búsqueda │ ├── context/ │ └── ThemeContext.tsx # Contexto global para tema claro/oscuro │ ├── hooks/ │ ├── reduxHooks.ts # Hooks personalizados para Redux │ └── useColorScheme.ts # Manejo de esquemas de color │ ├── navigation/ │ └── RootNavigation.tsx # Configuración de navegación principal │ ├── screens/ │ ├── Home/ │ │ └── index.tsx # Pantalla principal (lista de usuarios) │ └── UserDetails/ │ └── index.tsx # Pantalla con detalles del usuario │ ├── store/ │ ├── slices/ │ │ └── usersSlice.ts # Redux slice para manejo de usuarios │ └── index.ts # Configuración del store global │ └── types/ ├── user.ts # Tipado para los datos de usuario └── navigation.ts # Tipado de la navegación (React Navigation) ``` </pre>
 
 
 ---
