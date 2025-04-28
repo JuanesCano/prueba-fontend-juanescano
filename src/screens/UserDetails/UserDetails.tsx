@@ -78,12 +78,6 @@ export const UserDetailsScreen = ({ route }: UserDetailsScreenProps) => {
 
   return (
     <ScrollView style={[styles.container, {backgroundColor: theme.background}]}>
-      {/* <TouchableOpacity style={styles.toggleButton} onPress={toggleTheme}>
-        <Text style={[styles.toggleButtonText, { color: currentTheme.text }]}>
-          Switch to {currentTheme === lightTheme ? 'Dark' : 'Light'} Mode
-        </Text>
-      </TouchableOpacity> */}
-
     <View style={styles.profileHeader}>
       <Image
         source={{
