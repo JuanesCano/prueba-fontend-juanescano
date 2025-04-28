@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { RootStackParamList } from '~/types/navigation'
-import { UserDetailsScreen } from '~/screens/UserDetails'
+import { UserDetailsScreen } from '~/screens/UserDetails/UserDetails'
 import { HomeScreen } from '~/screens/Home'
 import { ThemeProvider } from '~/context/ThemeContext'
 
